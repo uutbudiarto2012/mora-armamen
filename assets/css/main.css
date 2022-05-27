@@ -219,7 +219,7 @@ h4 {
 
 section.service {
   padding-top: 50px;
-  background-color: #fff;
+  background-color: #FFF;
   padding-bottom: 160px;
 }
 
@@ -1113,7 +1113,7 @@ section .phr span {
     left: -160px;
   }
   section.service {
-    padding-top: 150px;
+    padding-top: 100px;
   }
   section .phr {
     font-size: 20px;
