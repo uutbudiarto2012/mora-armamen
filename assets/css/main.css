@@ -1007,7 +1007,7 @@ section .phr span {
 
 .swiper-pagination {
   position: absolute;
-  top: 60%;
+  top: 50%;
   height: 20px;
   display: flex;
   padding: 0 3%;
@@ -1046,7 +1046,7 @@ section .phr span {
   position: absolute;
   left: 0;
   right: 0;
-  top: 40%;
+  top: 30%;
   bottom: 0;
   display: flex;
   justify-content: center;
@@ -1060,7 +1060,7 @@ section .phr span {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 25%;
+  bottom: 40%;
   display: flex;
   justify-content: center;
 }
@@ -1070,6 +1070,10 @@ section .phr span {
 }
 
 @media (min-width: 576px) {
+  .swiper-pagination {
+    position: absolute;
+    top: 60%;
+  }
   .swiper-wrapper .swiper-slide .item-wrapper {
     position: relative;
     height: 70vh;
