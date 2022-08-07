@@ -1250,6 +1250,41 @@ section {
 }
 
 
+.swiper {
+  position: relative;
+
+  .heading-container {
+    position: absolute;
+    color: #FFF;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text-wrapper {
+      margin-top: 35%;
+
+      .text-hero {
+        text-align: center;
+        font-size: 20px;
+      }
+    }
+
+    .text-her-bottom {
+      margin-top: 25%;
+
+      h3 {
+        text-align: center;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
 .swiper-pagination {
   position: absolute;
   top: 50%;
@@ -1280,7 +1315,11 @@ section {
   }
 }
 
+
+
 .swiper-wrapper {
+
+
   .swiper-slide {
     .item-wrapper {
       position: relative;
@@ -1329,6 +1368,32 @@ section {
 
 
 @media (min-width:576px) {
+
+
+  .swiper {
+    position: relative;
+
+    .heading-container {
+      .text-wrapper {
+        margin-top: 30%;
+
+        .text-hero {
+          text-align: center;
+          font-size: 26px;
+        }
+      }
+
+      .text-her-bottom {
+        margin-top: 20%;
+
+        h3 {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
   .swiper-pagination {
     position: absolute;
     top: 60%;
@@ -1382,6 +1447,32 @@ section {
 
 
 @media (min-width:768px) {
+
+
+  .swiper {
+    position: relative;
+
+    .heading-container {
+      .text-wrapper {
+        margin-top: 20%;
+        max-width: 80%;
+
+        .text-hero {
+          text-align: center;
+          font-size: 36px;
+        }
+      }
+
+      .text-her-bottom {
+        margin-top: 15%;
+
+        h3 {
+          text-align: center;
+          font-size: 26px;
+        }
+      }
+    }
+  }
 
   .swiper-pagination {
     position: absolute;
@@ -1461,6 +1552,32 @@ section {
 }
 
 @media (min-width:992px) {
+
+
+  .swiper {
+    position: relative;
+
+    .heading-container {
+      .text-wrapper {
+        margin-top: 20%;
+        max-width: 80%;
+
+        .text-hero {
+          text-align: center;
+          font-size: 48px;
+        }
+      }
+
+      .text-her-bottom {
+        margin-top: 15%;
+
+        h3 {
+          text-align: center;
+          font-size: 32px;
+        }
+      }
+    }
+  }
 
   .swiper-pagination {
     position: absolute;

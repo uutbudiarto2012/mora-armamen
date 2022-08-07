@@ -1005,6 +1005,36 @@ section .phr span {
      object-fit: cover;
 }
 
+.swiper {
+  position: relative;
+}
+.swiper .heading-container {
+  position: absolute;
+  color: #FFF;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper .heading-container .text-wrapper {
+  margin-top: 35%;
+}
+.swiper .heading-container .text-wrapper .text-hero {
+  text-align: center;
+  font-size: 20px;
+}
+.swiper .heading-container .text-her-bottom {
+  margin-top: 25%;
+}
+.swiper .heading-container .text-her-bottom h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
 .swiper-pagination {
   position: absolute;
   top: 50%;
@@ -1070,6 +1100,23 @@ section .phr span {
 }
 
 @media (min-width: 576px) {
+  .swiper {
+    position: relative;
+  }
+  .swiper .heading-container .text-wrapper {
+    margin-top: 30%;
+  }
+  .swiper .heading-container .text-wrapper .text-hero {
+    text-align: center;
+    font-size: 26px;
+  }
+  .swiper .heading-container .text-her-bottom {
+    margin-top: 20%;
+  }
+  .swiper .heading-container .text-her-bottom h3 {
+    text-align: center;
+    font-size: 18px;
+  }
   .swiper-pagination {
     position: absolute;
     top: 60%;
@@ -1112,6 +1159,24 @@ section .phr span {
   }
 }
 @media (min-width: 768px) {
+  .swiper {
+    position: relative;
+  }
+  .swiper .heading-container .text-wrapper {
+    margin-top: 20%;
+    max-width: 80%;
+  }
+  .swiper .heading-container .text-wrapper .text-hero {
+    text-align: center;
+    font-size: 36px;
+  }
+  .swiper .heading-container .text-her-bottom {
+    margin-top: 15%;
+  }
+  .swiper .heading-container .text-her-bottom h3 {
+    text-align: center;
+    font-size: 26px;
+  }
   .swiper-pagination {
     position: absolute;
     top: 60%;
@@ -1177,6 +1242,24 @@ section .phr span {
   }
 }
 @media (min-width: 992px) {
+  .swiper {
+    position: relative;
+  }
+  .swiper .heading-container .text-wrapper {
+    margin-top: 20%;
+    max-width: 80%;
+  }
+  .swiper .heading-container .text-wrapper .text-hero {
+    text-align: center;
+    font-size: 48px;
+  }
+  .swiper .heading-container .text-her-bottom {
+    margin-top: 15%;
+  }
+  .swiper .heading-container .text-her-bottom h3 {
+    text-align: center;
+    font-size: 32px;
+  }
   .swiper-pagination {
     position: absolute;
     top: 60%;
