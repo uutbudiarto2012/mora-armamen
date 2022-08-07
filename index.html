@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/assets/libs/slick/slick.css">
     <link rel="stylesheet" href="/assets/libs/slick/slick-theme.css">
     <link rel="stylesheet" href="/assets/libs/lightbox/css/glightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/assets/css/main.css">
     <title>Mora</title>
 </head>
@@ -63,11 +64,68 @@
             <div class="item-slider">
                 <h1 class="title f-russo-one">SPECIAL FORCES EQUIPMEMT</h1>
                 <div class="img-container">
-                    <img class="item" src="/assets/images/hero-1.png" alt="hero">
+                    <!-- <img class="item" src="/assets/images/hero-1.png" alt="hero"> -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item-wrapper">
+                                    <div class="text-wrapper">
+                                        <h2 class="text-hero d-none d-md-block">PROVIDING SOLUTION BEYOND EXPECTATION
+                                        </h2>
+                                        <h2 class="text-hero d-md-none">SPECIAL FORCES EQUIPMEMT</h2>
+                                    </div>
+                                    <img class="item" src="/assets/images/hero-1.png" alt="hero">
+                                    <div class="text-her-botton">
+                                        <h3>EQUIPMENT SOLUTIONS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-wrapper">
+                                    <div class="text-wrapper">
+                                        <h2 class="text-hero d-none d-md-block">PROVIDING SOLUTION BEYOND EXPECTATION
+                                        </h2>
+                                        <h2 class="text-hero d-md-none">SPECIAL FORCES EQUIPMEMT</h2>
+                                    </div>
+                                    <img class="item" src="/assets/images/hero-2.png" alt="hero">
+                                    <div class="text-her-botton">
+                                        <h3>EQUIPMENT SOLUTIONS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-wrapper">
+                                    <div class="text-wrapper">
+                                        <h2 class="text-hero d-none d-md-block">PROVIDING SOLUTION BEYOND EXPECTATION
+                                        </h2>
+                                        <h2 class="text-hero d-md-none">SPECIAL FORCES EQUIPMEMT</h2>
+                                    </div>
+                                    <img class="item" src="/assets/images/hero-3.png" alt="hero">
+                                    <div class="text-her-botton">
+                                        <h3>EQUIPMENT SOLUTIONS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-wrapper">
+                                    <div class="text-wrapper">
+                                        <h2 class="text-hero d-none d-md-block">PROVIDING SOLUTION BEYOND EXPECTATION
+                                        </h2>
+                                        <h2 class="text-hero d-md-none">SPECIAL FORCES EQUIPMEMT</h2>
+                                    </div>
+                                    <img class="item" src="/assets/images/hero-4.png" alt="hero">
+                                    <div class="text-her-botton">
+                                        <h3>EQUIPMENT SOLUTIONS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="trigger-slider">
+        <!-- <div class="trigger-slider">
             <div class="item active">
                 <span class="num f-russo-one">01</span>
                 <button class="btn-tigger"></button>
@@ -76,7 +134,7 @@
                 <span class="num f-russo-one">02</span>
                 <button class="btn-tigger"></button>
             </div>
-        </div>
+        </div> -->
         <div class="assest-wrapper pb-5">
             <div class="container">
                 <div class="row">
@@ -208,7 +266,7 @@
                     <div class="title-wrapper">
                         <div class="row">
                             <div class="col-lg-3 d-flex wr-row justify-content-lg-end">
-                                <h2 class="title text-lg-end">
+                                <h2 class="title  text-lg-end">
                                     ABOUT US
                                     <span class="title-shadow">ABOUT US</span>
                                 </h2>
@@ -309,7 +367,7 @@
                     </div>
                 </div>
             </div>
-          </div>
+        </div>
     </section>
 
     <div class="contact" id="contact">
@@ -491,7 +549,8 @@
                         <a href="http://www.facebook.com" class="link-social" target="_blank" rel="noopener noreferrer">
                             <img src="/assets/images/facebook.png" alt="">
                         </a>
-                        <a href="http://www.instagram.com" class="link-social" target="_blank" rel="noopener noreferrer">
+                        <a href="http://www.instagram.com" class="link-social" target="_blank"
+                            rel="noopener noreferrer">
                             <img src="/assets/images/instagram.png" alt="">
                         </a>
                         <a href="http://www.youtube.com" class="link-social" target="_blank" rel="noopener noreferrer">
@@ -521,7 +580,8 @@
                         <a href="http://www.facebook.com" class="link-social" target="_blank" rel="noopener noreferrer">
                             <img src="/assets/images/facebook.png" alt="">
                         </a>
-                        <a href="http://www.instagram.com" class="link-social" target="_blank" rel="noopener noreferrer">
+                        <a href="http://www.instagram.com" class="link-social" target="_blank"
+                            rel="noopener noreferrer">
                             <img src="/assets/images/instagram.png" alt="">
                         </a>
                         <a href="http://www.youtube.com" class="link-social" target="_blank" rel="noopener noreferrer">
@@ -575,23 +635,49 @@
         </div>
     </footer>
 
-    
+
+
 
     <script src="/assets/libs/jquery-3.6.0.min.js"></script>
     <script src="/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/libs/slick/slick.min.js"></script>
     <script src="/assets/libs/lightbox/js/glightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="/assets/js/main.js"></script>
 
     <script>
-        $.fn.isInViewport = function() {
-        var elementTop = $(this).offset().top;
-        var elementBottom = elementTop + $(this).outerHeight();
-        var viewportTop = $(window).scrollTop();
-        var viewportBottom = viewportTop + $(window).height();
-        return elementBottom > viewportTop && elementTop < viewportBottom;
-};      
+        $.fn.isInViewport = function () {
+            var elementTop = $(this).offset().top;
+            var elementBottom = elementTop + $(this).outerHeight();
+            var viewportTop = $(window).scrollTop();
+            var viewportBottom = viewportTop + $(window).height();
+            return elementBottom > viewportTop && elementTop < viewportBottom;
+        };
         const lightbox = GLightbox();
+    </script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+                renderBullet: function (index, className) {
+                    return '<div class="' + className + '">' + "<span> 0" + (index + 1) + "</span>" + "</div>";
+
+                },
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            parallax: true,
+            speed: 1000,
+            loop: true,
+            grabCursor: true,
+        });
     </script>
 </body>
 
