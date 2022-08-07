@@ -1163,7 +1163,7 @@ section .phr span {
     position: relative;
   }
   .swiper .heading-container .text-wrapper {
-    margin-top: 20%;
+    margin-top: 18%;
     max-width: 80%;
   }
   .swiper .heading-container .text-wrapper .text-hero {
@@ -1171,7 +1171,7 @@ section .phr span {
     font-size: 36px;
   }
   .swiper .heading-container .text-her-bottom {
-    margin-top: 15%;
+    margin-top: 12%;
   }
   .swiper .heading-container .text-her-bottom h3 {
     text-align: center;
