@@ -1021,14 +1021,14 @@ section .phr span {
   align-items: center;
 }
 .swiper .heading-container .text-wrapper {
-  margin-top: 35%;
+  margin-top: 20vh;
 }
 .swiper .heading-container .text-wrapper .text-hero {
   text-align: center;
   font-size: 20px;
 }
 .swiper .heading-container .text-her-bottom {
-  margin-top: 25%;
+  margin-top: 15vh;
 }
 .swiper .heading-container .text-her-bottom h3 {
   text-align: center;
