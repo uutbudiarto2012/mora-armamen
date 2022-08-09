@@ -1012,7 +1012,8 @@ section .phr span {
   position: absolute;
   color: #FFF;
   top: 0;
-  bottom: 30vh;
+  bottom: 0;
+  padding-bottom: 32vh;
   left: 0;
   right: 0;
   z-index: 10;
