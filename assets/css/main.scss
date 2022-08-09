@@ -1240,16 +1240,19 @@ section {
     position: absolute;
     color: #FFF;
     top: 0;
-    bottom: 0;
+    bottom: 30vh;
     left: 0;
     right: 0;
     z-index: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     .text-wrapper {
-      margin-top: 20vh;
+      flex: 2;
+      display: flex;
+      align-items: flex-end;
 
       .text-hero {
         text-align: center;
@@ -1258,11 +1261,13 @@ section {
     }
 
     .text-her-bottom {
-      margin-top: 15vh;
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
 
       h3 {
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
       }
     }
   }
@@ -1358,19 +1363,14 @@ section {
 
     .heading-container {
       .text-wrapper {
-        margin-top: 30%;
-
         .text-hero {
-          text-align: center;
           font-size: 26px;
         }
       }
 
       .text-her-bottom {
-        margin-top: 20%;
 
         h3 {
-          text-align: center;
           font-size: 18px;
         }
       }
@@ -1437,20 +1437,14 @@ section {
 
     .heading-container {
       .text-wrapper {
-        margin-top: 18%;
-        max-width: 80%;
-
         .text-hero {
-          text-align: center;
           font-size: 36px;
         }
       }
 
       .text-her-bottom {
-        margin-top: 12%;
 
         h3 {
-          text-align: center;
           font-size: 26px;
         }
       }
@@ -1542,20 +1536,14 @@ section {
 
     .heading-container {
       .text-wrapper {
-        margin-top: 20%;
-        max-width: 80%;
-
         .text-hero {
-          text-align: center;
           font-size: 48px;
         }
       }
 
       .text-her-bottom {
-        margin-top: 15%;
 
         h3 {
-          text-align: center;
           font-size: 32px;
         }
       }
